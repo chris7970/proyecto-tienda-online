@@ -1,0 +1,211 @@
+body{
+    margin: auto;
+    
+}
+
+.button-add{
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 5px;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid #4caf50;
+    transition-duration: 0.5s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.button-add:hover{
+    background-color:rgba(37, 163, 54, 0.889);
+    color: azure;
+}
+
+.page-nav{
+    margin: auto;
+    
+    border: 2px solid black;
+}
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid rgb(11, 7, 7);
+}
+
+.product-container{
+    margin: 10px;
+    padding: 10px 12px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    
+}
+
+.product-container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+
+}
+
+.product-container img {
+    width: 600px;
+    
+    
+}
+.product-container h6 {
+    
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 20px;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.form-control{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border-color: rgba(51, 38, 188, 0.719);
+    border-radius: 2px;
+    margin: 10px;
+    padding: 5px;
+    width: 400px;
+    
+}
+.btn {
+    margin: 5px;
+    padding: 15px;
+    
+    
+}
+.form-label{
+    margin-left: 10px;
+   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: rgb(40, 92, 92);
+    
+}
+
+h3{
+     color: rgb(24, 21, 57);
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+
+.container{
+    margin-top: 10px;
+    margin-right: auto;
+    
+    padding: 5px;
+
+}
+h6{
+    margin: auto;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.table{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+main> .container-images{
+    padding: 30px 0;
+    margin: 30px;
+}
+
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+    
